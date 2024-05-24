@@ -40,10 +40,12 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
-@media only screen and (max-width: 768px) {
-  .topnav {
-      flex-direction: column;
-  }
+@media (max-width: 768px) {
+  .topnav a { 
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
   .topnav a {
       margin: 5px 0;
