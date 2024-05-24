@@ -132,11 +132,12 @@ iframe {
 }
 
 .table-container {
+  width:75%;
   display: flex;
   justify-content: center;
   align-items: center; 
   min-height: 200vh;
-    overflow-x: auto;
+  overflow-x: auto;
   padding: 20px;
 }
 .table {
