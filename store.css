@@ -169,6 +169,7 @@ tfoot {
   .table-container {
     flex-direction: column;
     align-items: flex-start; 
+    
   }
 
   .table {
